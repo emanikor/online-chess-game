@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <script src="https://kit.fontawesome.com/dd06602d3d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<?php
+ include("sign up.php")
+ ?>;
+
+
+    <style>
+        body {
+          background-image: url('chessgame.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
+
+    <!--nav-->
+   <li><a href="home.html"><i class="fas fa-home"></i>home</a></li>
+   
+    <br>
+    <br>
+    <br>
+    
+    <h2>sign up</h2>
+    <p>please fill this form to create your account</p>
+  
+
+ <form method="post" action="phpsubmit.php">
+
+</form>
+    
+   <form action="sign up">
+    <label for="email">Email*</label><br>
+            <input type="text" name="email"  size="50" placeholder="Your Email" required><br>
+            <br>
+            <label for="name">Name*</label><br>
+            <input type="text" name="name" size="50" placeholder="Your Name" required>
+            <br>
+            <br>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd">
+            <br>
+            <br>
+            <label for="pwd">cornfim Password:</label>
+            <input type="password" id="pwd" name="pwd">
+            <br>
+            <br>
+            
+    <p>By creating an account you agree to our <a href="terms and conditions.html">Terms and condition</a>.</p>
+    <span  class="text-sucess">
+
+    <span class="test-sucess"></span>
+    <form action="" id="register"></form>
+    <div class="mb3">
+    
+  
+    </div>
+    <span id="password-error"
+    class-="text-danger"></span>
+    <button type="submit" class="registerbtn">Register</button>
+  <div class="container signin">
+    <p>Already have an account? <a href="sign in.html">Sign in</a>.</p>
+  </div>
+    </form>
+          <br>
+           <br>
+           <script src="./sign up.js"></script>
+           <br>
+           <br>
+           <br>
+           <br>
+        <script>
+          src="https:/cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstap.bundle.min.js"
+          integrity="sha384-ka7skoGln4gmtz2MLQnikTlwxgYsog+oMhup+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        </script>
+           <!--footer section-->
+<div class="footer 1">
+    <footer>
+        <h4><strong>social media platforms</strong></h4><br>
+           <a href="Https://WWW.instagram.com"><i class="fab fa-instagram"></i>instagram</a>
+          <a href="https://www.facebook.com"><i class="fab fa-facebook"></i>facebook</a>
+           <a href="Https://WWW.gmail.com"><i class="fas fa-envelope"></i>gmail</a>
+         
+           <a href="Https://WWW.twitter.com"><i class="fab fa-twitter"></i>twitter</a>
+           <br>
+           <p>&copy;2022 all reseverd &trade;chess game</p>
+
+
+    </footer>
+</div>
+</body>
+</html>

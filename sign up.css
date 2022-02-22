@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: whitesmoke;
+}
+
+footer {
+    text-align: center;
+}
+
+i {
+    padding:0.5em;
+}
+main {
+    background-color:rgb(150, 224, 212);
+}
+
+.navbar  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1em;
+    align-items:center;
+    min-height: 50px;
+}
+.nav-link:hover{
+    color:darkred;
+}
+li {
+    float: left;
+    list-style: none; /* Remove HTML bullets */
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #a9dad7;
+  }
+footer {
+    text-align: center;
+    background-color:rgb(81, 170, 192);
+
+}
+.registerbtn:hover {
+    opacity: 1;
+  }
+.signin {
+    background-color: #745656;
+    text-align: center;
+  }
+  form#123offer{
+    text-align: center;
+    display: center;
+    color: antiquewhite;
+  }

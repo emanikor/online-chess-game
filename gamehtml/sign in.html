@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sign in</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>online chess game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="css/sign in.css">
+	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+
+</head>
     <script src="https://kit.fontawesome.com/dd06602d3d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -18,91 +26,95 @@
           background-size: 100% 100%;
         }
         </style>
-    <h1>enter your detaiils form to play chess</h1>
-    <!--navigation bar-->
-   <li><a href="home.html"><i class="fas fa-home"></i>home</a></li>
-   <li><a href="play.html"><i class="fas fa-play"></i>play</a></li>
-   <li><a href="learn.html"><i class="fas fa-school"></i>learn</a></li>
-    <li><a href="connect.html"><i class="fas fa-link"></i>connect</a></li>
-    <li><a href="tournaments.html"><i class="fas fa-chess"></i>tournaments</a></li>
-   <li><a href="sign in.html"><i class="fas fa-sign-in-alt"></i>sign in</a></li>
-   <br>
-   <br>
-    
-<br>
-<h2>sign in</h2>
-<diV>
-   <form action="sign up">
-    <label for="email">please enter your email*</label><br>
-            <input type="text" name="email"  size="50" placeholder="Your Email" required><br>
-        
-            <br>
-            <label for="pwd">Password:</label>
-            <input type="password" id="pwd" name="pwd">
-            <br>
-            <label for="submit"></label>
-            <input type="button" value="submit">
-    </form>
-          <br>
-           <br>
-          <p>don't have an account,
-    <a href="sign up.html">sign up</a></p>
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card bg-dark text-white" style="border-radius: 1rem;">
+            <div class="card-body p-5 text-center">
+  
+              <div class="mb-md-5 mt-md-4 pb-5">
+  
+                <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+                <p class="text-white-50 mb-5">Please enter your login and password!</p>
+  
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="typeEmailX" class="form-control form-control-lg" />
+                  <label class="form-label" for="typeEmailX">Email</label>
+                </div>
+  
+                <div class="form-outline form-white mb-4">
+                  <input type="password" id="typePasswordX" class="form-control form-control-lg" />
+                  <label class="form-label" for="typePasswordX">Password</label>
+                </div>
+  
+                <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
+  
+                <button class="btn btn-outline-light btn-lg px-5" type="submit">sign in</button>
+  
+                <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                  <a href="#!" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
+                  <a href="Https://WWW.twitter.com"><i class="fab fa-twitter fa-lg mx-4 px"></i></a>
+                  <a href="#!" class="text-white"><i class="fab fa-google fa-lg"></i></a>
+                </div>
+  
+              </div>
+  
+              <div>
+                <p class="mb-0">Don't have an account? <a href="sign up.html" class="text-white-50 fw-bold">Sign Up</a></p>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <br>
-    <br>
-    <br><br>
-    
-<script type="text/javascript" src="pieces.js"></script>
-<script type="text/javascript" src="game.js"></script>
-
-<script type="text/javascript">
-	function boardAnimate(){
-		var board = document.getElementById('board');
-		var elements = board.getElementsByClassName('piece');
-		if (board.classList.contains('animate')) {
-			board.classList.remove('animate');
-			board.classList.add('animate-backward');
-			for (var i = 0; i < elements.length; i++) {
-					elements[i].classList.remove('forward');
-					elements[i].classList.add('backward');
-			}
-		}
-		else{
-			board.classList.remove('animate-backward');
-			board.classList.add('animate');
-			for (var i = 0; i < elements.length; i++) {
-					elements[i].classList.remove('backward');
-					elements[i].classList.add('forward');
-			}
-		}	
-	}
-		
-</script>
-    <br>
-    <br>
-    <br>
-    <script>
-        src="https:/cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstap.bundle.min.js"
-        integrity="sha384-ka7skoGln4gmtz2MLQnikTlwxgYsog+oMhup+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      </script>
-    <br>
-    <br>
-    <br>
-    <!--footer section-->
-<div class="footer 1">
-    <footer>
-        <h4><strong>follow us</strong></h4><br>
-           <a href="Https://WWW.instagram.com"><i class="fab fa-instagram"></i>instagram</a>
-          <a href="https://www.facebook.com"><i class="fab fa-facebook"></i>facebook</a>
-           <a href="Https://WWW.gmail.com"><i class="fas fa-envelope"></i>gmail</a>
-         
-           <a href="Https://WWW.twitter.com"><i class="fab fa-twitter"></i>twitter</a>
-           <br>
-           <p>&copy;2022 all reseverd &trade;chess game</p>
-
-
-    </footer>
-</div>
+  </section>
    <scipt src="sign in.js"></scipt>
+   <!--- Footer -->
+<footer>
+  <div class="container-fluid padding">
+      <div class="row text-center">
+          <div class="col-md-4">
+
+              <hr class="light">
+              <p>corneliusekai72@gmail.com</p>
+              <p>+254 796 7654 30</p>
+              <p>190-streets</p>
+              <p>nairobi city</p>
+              <p>city,state,00000</p>
+          </div>
+          <div class="col-4">
+              <hr class="light">
+              <h5>find more news at</h5>
+             <hr class="light">
+      
+        <p><a href="https://www.chessdrum.com"></a>chessdrum</p>
+              <p><a href="https://www.chessbase.com"></a>chessbase</p>
+              <p><a href="https://www.kenyachessblog.com"></a>chessblog</p>
+              <p><a href="https://www.newinchess.com"></a>new in chess</p>
+              <p><a href="https://www.twitter.com"></a>twitter chess</p>
+          </div>
+          <div class="col-4">
+              <hr class="light">
+              <h6>more</h6>
+             <hr class="light">
+             <h5><a href="about.html">about us</a></h5>
+             <h5><a href="contact.html">contact us</a></h5>
+             <h5><a href="#">register tournament</a></h5>
+             <h5><a href="#">social media handle emchess.c</a></h5>
+             <p>
+       </p>
+          </div>
+          <div class="col-12">
+              <hr class="light">
+              <h7> <p>&copy;2022 all reseverd &trade;chess game</p></h7>
+             
+             
+      </div>
+  </div>
+</footer>
+
+
 </body>
 </html>
